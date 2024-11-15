@@ -1,0 +1,21 @@
+public class AkunTelkomsel {
+    String nama;
+    String nomorTelepon;
+    String email;
+    String password;
+
+    public AkunTelkomsel(String nama, String nomorTelepon, String email, String password) {
+        this.nama = nama;
+        this.nomorTelepon = nomorTelepon;
+        this.email = email;
+        this.password = password;
+    }
+
+    public String getInformasiAkun() {
+        return "Nama: " + nama + "\nNomor Telepon: " + nomorTelepon + "\nEmail: " + email;
+    }
+
+    public boolean cekPassword(String password) {
+        return this.password.equals(password);
+    }
+}
