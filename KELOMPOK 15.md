@@ -1,1 +1,0 @@
-Yohanes Delfiano Saputro Tamar 
