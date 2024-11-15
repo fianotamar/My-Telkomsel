@@ -1,0 +1,5 @@
+public class Register {
+    public void register(AkunTelkomsel akun) {
+        System.out.println("Registrasi berhasil untuk akun: " + akun.nama);
+    }
+}
